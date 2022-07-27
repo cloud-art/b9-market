@@ -1,0 +1,20 @@
+.navigation{
+	height: 48px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts{
+	padding-right: 33px;
+}
+
+.links{
+	padding-left: 38px;
+}
+
+hr{
+	color: #151515;
+	opacity: 0.05;
+}
