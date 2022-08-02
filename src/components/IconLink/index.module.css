@@ -1,0 +1,12 @@
+.button{
+    background-color: rgba(1,1,1,0);
+    border: none;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.icon{
+    height: 40px;
+}
