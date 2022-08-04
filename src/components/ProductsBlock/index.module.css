@@ -1,0 +1,9 @@
+.productB{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 45px;
+    gap: 32px;
+}

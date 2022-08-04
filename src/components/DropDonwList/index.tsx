@@ -9,11 +9,11 @@ interface IProps{
   labelStyle?: object
 }
 
-const DropDownList: React.FC<IProps> = ({ label, styleProps, labelStyle }) =>{
+const DropDownList: React.FC<IProps> = ({ label }) =>{
   return (
-    <div className={styles.list} style={styleProps}>
+    <div className={styles.list}>
       <button className={styles.button}>
-        <span className={styles.label} style={labelStyle}>{label}</span>
+        <span className={styles.label}>{label}</span>
         <img src={downArrow} className={styles.downArrow} />
       </button>
       <div className={styles.content}>

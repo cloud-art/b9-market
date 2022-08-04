@@ -1,8 +1,8 @@
 import React from 'react'
-import InfoLink from '../InfoLink'
+import InfoLink from '../../../InfoLink'
 import styles from "./index.module.css"
 
-function index() {
+function Navigation() {
   return (
     <>
 			<div className={styles.navigation}>
@@ -24,4 +24,4 @@ function index() {
   )
 }
 
-export default index
+export default Navigation

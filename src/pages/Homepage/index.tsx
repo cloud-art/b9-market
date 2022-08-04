@@ -1,8 +1,13 @@
 import React from 'react'
+import ProductsBlock from "../../components/ProductsBlock"
 
 function index() {
   return (
-    <h1>Homepage</h1>
+    <div>
+      <ProductsBlock productBlock={{}} />
+      <ProductsBlock productBlock={{}} />
+      <ProductsBlock productBlock={{}} />
+    </div>
   )
 }
 

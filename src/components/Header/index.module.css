@@ -23,14 +23,34 @@ h1{
     cursor: pointer;
 }
 
-.possibilities{
-    text-align: right;
+.dropDownList{
+    width: 100%;
 }
 
-.menu{
+.dropDownList span{
+    font-weight: 700;
+}
+
+.search{
+    background-color: #F9F9F9;;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 55px;
-    background: #F9F9F9;
+    padding: 11px 16px 11px 16px;
+}
+
+.line{
+    width: 20px;
+    height: 0px;
+    border: 1px solid #D1D1D1;
+    transform: rotate(90deg);
+    margin-top: 10px
+}
+
+.searchLine{
+    width: 100%;
+}
+
+.possibilities{
+    text-align: right;
 }
