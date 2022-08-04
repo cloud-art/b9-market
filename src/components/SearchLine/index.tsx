@@ -5,10 +5,14 @@ import DropDownList from '../DropDonwList'
 import magnifier from "../../assets/icons/magnifier.png"
 
 function Search() {
+  const labelDDStyles = {
+    "font-weight": "700",
+    "font-size": "17px"
+  }
 
   return (
     <div className={styles.search}>
-      <DropDownList label="All categories"/>
+      <DropDownList label="All categories" labelStyle={labelDDStyles}/>
       <div className={styles.line}></div>
       <form action="" className={styles.searchForm}>
         <div className={styles.searchForm}>

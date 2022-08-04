@@ -19,6 +19,10 @@ h1{
     text-align: left;
 }
 
+.brand :hover{
+    cursor: pointer;
+}
+
 .possibilities{
     text-align: right;
 }

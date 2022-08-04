@@ -17,7 +17,7 @@ function Header() {
         <HeaderNav />
         <div className={styles.header}>
           <div className={styles.grid}>
-            <h1 className={styles.brand}>Freshnesecom</h1>
+            <h1 className={styles.brand}><a>Freshnesecom</a></h1>
               <SearchLine />
               <div className={styles.possibilities}>
                 <IconLink icon={person}/>

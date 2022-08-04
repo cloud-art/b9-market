@@ -5,14 +5,15 @@ import downArrow from "../../assets/icons/downarrow.png"
 
 interface IProps{
   label: string,
-  styleProps?: object
+  styleProps?: object,
+  labelStyle?: object
 }
 
-const DropDownList: React.FC<IProps> = ({ label, styleProps }) =>{
+const DropDownList: React.FC<IProps> = ({ label, styleProps, labelStyle }) =>{
   return (
     <div className={styles.list} style={styleProps}>
       <button className={styles.button}>
-        <span className={styles.label}>{label}</span>
+        <span className={styles.label} style={labelStyle}>{label}</span>
         <img src={downArrow} className={styles.downArrow} />
       </button>
       <div className={styles.content}>
