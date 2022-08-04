@@ -1,21 +1,27 @@
 import React from 'react'
 import styles from "./index.module.css"
 
+import List from './components/List'
+import Banner from "./components/Banner"
+
 interface IProps{
-    productBlock: object
+    children?: object
 }
 
 
-const Menus: React.FC<IProps> = ({ productBlock }) =>{
-  const labelDDStyle = {
-    "font-weight": "300",
-    "font-size": "17px"
-  }
+const Menus: React.FC<IProps> = ({ children }) =>{
 
   return (
     <div className={styles.productB}>
-        <h1>Categories</h1>
-        <h1>Cards</h1>
+      <List />
+      <div className={styles.bannerGroup}>
+        <div className={styles.banner}>
+          <Banner/>
+        </div>
+        <div className={styles.banner}>
+          <Banner styleProps={{"margin-left" : "30px"}}/>
+        </div>
+      </div>
     </div>
   )
 }

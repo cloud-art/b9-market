@@ -4,9 +4,9 @@ import ProductsBlock from "../../components/ProductsBlock"
 function index() {
   return (
     <div>
-      <ProductsBlock productBlock={{}} />
-      <ProductsBlock productBlock={{}} />
-      <ProductsBlock productBlock={{}} />
+      <ProductsBlock />
+      <ProductsBlock />
+      <ProductsBlock />
     </div>
   )
 }
