@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.label{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    color: #6A983C;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 8px 0 8px 0;
+}

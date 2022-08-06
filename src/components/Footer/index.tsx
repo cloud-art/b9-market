@@ -1,11 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
+import styles from "./index.module.css"
 
-export class index extends Component {
-  render() {
-    return (
-      <h1>Footer</h1>
-    )
-  }
+import Navigation from "./components/Navigation"
+
+interface IProps{
 }
 
-export default index
+
+const Menus: React.FC<IProps> = ({ }) =>{
+
+  return (
+    <div className={styles.footer}>
+      <Navigation />
+      <span className={styles.rights}>
+        Copyright © 2020 petrbilek.com
+      </span>
+    </div>
+  )
+}
+
+export default Menus

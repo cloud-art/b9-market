@@ -1,0 +1,46 @@
+.banner{
+    height: 100%;
+    background: #F4F8EC;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px; 
+    margin-left: 35px;
+}
+
+.subfocus{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6A983C;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.button{
+    background-color: rgba(1,1,1,0);
+    border: 2px solid #92C064;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size:  15px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+
+button .content{
+    margin: 10px 15px;
+}

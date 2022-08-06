@@ -1,12 +1,15 @@
 import React from 'react'
+
+import DiscountBlock from '../../components/DiscountBlock'
 import ProductsBlock from "../../components/ProductsBlock"
 
 function index() {
+
   return (
     <div>
       <ProductsBlock />
       <ProductsBlock />
-      <ProductsBlock />
+      <DiscountBlock />
     </div>
   )
 }
