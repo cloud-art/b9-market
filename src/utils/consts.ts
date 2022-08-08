@@ -1,0 +1,6 @@
+export const ADMIN_ROUTE: string = "/admin"
+export const HOMEPAGE_ROUTE: string = "/"
+export const BASKET_ROUTE: string = "/basket"
+export const CATEGORY_ROUTE: string = "/category"
+export const DETAILS_ROUTE: string = "/details"
+export const DESCRIPTION_ROUTE: string = "/description"

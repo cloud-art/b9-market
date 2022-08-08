@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./index.module.css"
+import { CATEGORY_ROUTE } from "../../../../utils/consts"
 
 interface IProps{
   styleProps?: object
@@ -19,9 +20,9 @@ const List: React.FC<IProps> = ({ styleProps }) =>{
         </div>
       </div>
       
-      <button className={styles.button}> 
+      <a href={CATEGORY_ROUTE} className={styles.button}> 
         More categories
-      </button>
+      </a>
     </div>
   )
 }

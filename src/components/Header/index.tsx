@@ -23,7 +23,7 @@ function Header() {
         <Navigation />
         <div className={styles.header}>
           <div className={styles.grid}>
-            <h1 className={styles.brand}><a>Freshnesecom</a></h1>
+            <h1 className={styles.brand}><a href='/'>Freshnesecom</a></h1>
             <div className={styles.search}>
               <div className={styles.dropDownList}>
                 <DropDownList label="All categories"/>

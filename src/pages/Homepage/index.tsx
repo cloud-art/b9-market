@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import DiscountBlock from '../../components/DiscountBlock'
 import ProductsBlock from "../../components/ProductsBlock"
 
-function index() {
+interface IProps{
+}
+
+
+const Homepage: React.FC<IProps> = ({ }) =>{
 
   return (
     <div>
@@ -14,4 +18,4 @@ function index() {
   )
 }
 
-export default index
+export default Homepage

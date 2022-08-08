@@ -1,9 +1,12 @@
 import React from 'react'
 
-function index() {
+interface IProps{
+}
+
+const Description: React.FC<IProps> = ({ }) =>{
   return (
     <h1>Description</h1>
   )
 }
 
-export default index
+export default Description

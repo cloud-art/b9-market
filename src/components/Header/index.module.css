@@ -23,6 +23,11 @@ h1{
     cursor: pointer;
 }
 
+.brand a{
+    color: #151515;
+    text-decoration: none;
+}
+
 .dropDownList{
     width: 100%;
 }
