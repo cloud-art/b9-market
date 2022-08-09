@@ -10,9 +10,8 @@
 }
 
 .image{
+    height: 100%;
     padding: 0px;
-    width: 237px;
-    height: 180px;
     background: #F9F9F9;
     border-radius: 12px;
     align-self: center;

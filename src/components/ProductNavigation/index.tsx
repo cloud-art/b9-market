@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./index.module.css"
-import { CATEGORY_ROUTE } from "../../../../utils/consts"
+import { CATEGORY_ROUTE } from "../../utils/consts"
 
 interface IProps{
   styleProps?: object

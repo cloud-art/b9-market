@@ -1,8 +1,5 @@
 import React from 'react'
 
-import DiscountBlock from '../../components/DiscountBlock'
-import ProductsBlock from "../../components/ProductsBlock"
-
 interface IProps{
 }
 

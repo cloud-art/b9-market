@@ -2,15 +2,19 @@ import React from 'react'
 import styles from "./index.module.css"
 
 import IProduct from "../../types/IProduct"
+import ICardImage from '../../types/ICardImage'
 
 interface IProps{
-  product?: IProduct
+  product?: IProduct,
+  img: ICardImage
 }
 
-const Card: React.FC<IProps> = ({ product }) =>{
+const Card: React.FC<IProps> = ({ product, img }) =>{
   return (
     <div className={styles.card}>
-      <img src="" alt="" className={styles.image}/>
+      <img src={img.src} alt="" className={styles.image} 
+        style={{ width: img.width }}
+        />
       <div className={styles.main}>
         <span className={styles.title}>Product title</span>
         <span className={styles.description}>Space for a small product description</span>

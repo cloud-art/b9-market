@@ -1,0 +1,8 @@
+.contentBlock{
+    padding: 64px 0px;
+}
+
+.contentGroup{
+    display: flex;
+    justify-content: space-between;
+}
