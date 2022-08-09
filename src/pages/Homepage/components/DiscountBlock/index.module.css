@@ -1,0 +1,24 @@
+.discountBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.label{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #151515
+}
